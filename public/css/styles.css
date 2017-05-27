@@ -1,0 +1,79 @@
+body {
+  font-family: arial;
+  width: 90%;
+  margin: 40px auto;
+  line-height: 1.4em;
+}
+
+section {
+  margin: 25px 0;
+}
+
+.foto{
+  width: 50px;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 10px 0;
+}
+
+h1 a:visited{
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 25px 0;
+  font-family: arial black;
+  text-decoration: none;
+}
+
+h2 a{
+  color: dodgerblue;
+}
+
+h2 a:visited {
+  text-decoration: none;
+}
+
+h3 {
+  display: inline;
+}
+
+h3:visited{
+  text-decoration: none;
+}
+
+nav {
+  font-family: arial black;
+  margin: 25px 0;
+  text-decoration: none;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:visited {
+  text-decoration: none;
+}
+
+.samenvatting{
+  font-family: arial black;
+}
+
+.datum{
+  color: lightslategray;
+}
