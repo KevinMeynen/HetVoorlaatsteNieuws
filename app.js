@@ -15,6 +15,18 @@ app.use(require("./routes/root_router"));
 app.use(require("./routes/nieuws_router"));
 app.use(require("./routes/categorieen_router"));
 
+app.set("view engine", "ejs");
+
+app.get("/", function(req, res) {
+  res.render("index");
+});
+app.get("/about", function(req, res) {
+  res.render("ABOUT");
+});
+app.get("/contact", function(req, res) {
+  res.render("CONTACT");
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node luistert op poort', app.get('port'));
 });

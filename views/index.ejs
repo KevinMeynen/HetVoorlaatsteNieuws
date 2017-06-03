@@ -1,15 +1,10 @@
 <% include header %>
-
-<h1>Het Voorlaatste Nieuws</h1>
-<div class"foto">
-  <img src="/img/logo_hvln2.png" class="hvln" alt="het-voorlaatste-nieuws"></div>
+<% include navigatie %>
 <nav>
   <% for (var i = 0; i < categorieen.length; i++) { %>
-    <a href="/categorieen/<%- i %>"><%- categorieen[i] %></a>
+    <a href="/categorieen/<%- i %>" class="categorieen"><%- categorieen[i] %></a>
   <% } %>
 </nav>
-
-
   <% var teller = 1; %>
   <% nieuws.forEach(function(item){ %>
     <section>

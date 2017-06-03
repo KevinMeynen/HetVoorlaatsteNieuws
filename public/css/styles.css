@@ -3,27 +3,40 @@ body {
   width: 90%;
   margin: 40px auto;
   line-height: 1.4em;
+  background-image: url("/img/Musea_erfgoed-PlantijnMoretus-NP-32_v2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 section {
   margin: 25px 0;
+  background-color: rgba(255,255,255,0.5);
+  padding: 2px;
 }
 
 .foto{
   width: 50px;
-
 }
-
+.foto2{
+  position: center;
+}
 img {
   max-width: 100%;
 }
 
 p {
   margin: 10px 0;
+  font-family: arial;
+}
+
+.tabs{
+  background-color:rgba(255,255,255,0.7);
+  padding: 2px;
 }
 
 h1 a:visited{
-  color: dodgerblue;
+  color: black;
   text-decoration: none;
 }
 
@@ -34,7 +47,7 @@ h2 {
 }
 
 h2 a{
-  color: dodgerblue;
+  color: black;
 }
 
 h2 a:visited {
@@ -50,8 +63,10 @@ h3:visited{
 }
 
 nav {
+  width: 100%;
+  margin-right: 40px;
+  background: darkred;
   font-family: arial black;
-  margin: 25px 0;
   text-decoration: none;
 }
 
@@ -61,7 +76,6 @@ nav a {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: dodgerblue;
   color: white;
   text-decoration: none;
 }
@@ -70,10 +84,24 @@ nav a:visited {
   text-decoration: none;
 }
 
+.categorieen{
+  display: block;
+  font-size: 12px;
+}
 .samenvatting{
   font-family: arial black;
 }
 
 .datum{
   color: lightslategray;
+}
+
+.Heroku{
+  display: block;
+  text-decoration: none;
+  background: darkred;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 5px;
 }
